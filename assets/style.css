@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #f8f9fa;
+  color: #333;
+}
+header h1 a {
+  text-decoration: none;
+  color: #007acc;
+}
+nav a {
+  margin-right: 1rem;
+  color: #007acc;
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
