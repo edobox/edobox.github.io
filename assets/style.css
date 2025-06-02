@@ -1,23 +1,36 @@
 body {
-  font-family: sans-serif;
-  margin: 2rem;
-  background: #f8f9fa;
-  color: #333;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 header h1 a {
   text-decoration: none;
   color: #007acc;
 }
 nav a {
-  margin-right: 1rem;
   color: #007acc;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+nav a:hover, nav a.active {
+  background: #e6f2fb;
 }
 .container {
-  max-width: 700px;
-  margin: auto;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem;
 }
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
   color: #666;
+  text-align: center;
 }
