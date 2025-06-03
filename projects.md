@@ -1,12 +1,13 @@
 ---
-layout: page
 title: Projects
-permalink: /projects/
+layout: collection
+collection: projects
+entries_layout: grid
+show_excerpts: true
+sort_by: title
 ---
 
-# Projects
 
-Here's a list of things I've worked on or built.
+# My Projects
 
-- **Project 1** — Short description here  
-- **Project 2** — Another quick note  
+Welcome to my project showcase. Here you'll find a collection of my work and experiments.

@@ -1,9 +1,77 @@
+# Site settings
+locale: en-US
 title: My Personal Site
 email: my-email@example.com
 description: >- 
   A simple Jekyll site for showcasing your work and ideas.
 baseurl: "" 
-url: "https://edobox.github.io" 
-theme: minima
+url: "https://edobox.github.io"
+
+# Theme settings
+remote_theme: mmistakes/so-simple-theme
+skin: "/assets/css/skins/default.css"
+
+# Site Author
+author:
+  name: Your Name
+  picture:
+  email:
+  twitter:
+  links:
+    - title: GitHub
+      url: https://github.com/yourusername
+      icon: fab fa-github-square
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: "page"
+      share: true
+
+# Footer Links
+footer_links:
+  - title: Instagram
+    url: https://instagram.com/yourusername
+    icon: fab fa-instagram
+  - title: LinkedIn
+    url: https://linkedin.com/in/yourusername
+    icon: fab fa-linkedin
+  - title: Twitter
+    url: https://twitter.com/yourusername
+    icon: fab fa-twitter
+  - title: GitHub
+    url: https://github.com/yourusername
+    icon: fab fa-github
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Image settings
+image_sizing: 
+  preview_image_width: 800
+  thumbnail_width: 400
