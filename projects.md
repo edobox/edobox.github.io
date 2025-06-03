@@ -5,6 +5,7 @@ collection: projects
 entries_layout: grid
 show_excerpts: true
 sort_by: title
+permalink: /projects/
 ---
 
 

@@ -1,6 +1,7 @@
 ---
-layout: page
 title: Blog
+layout: page
+permalink: /blog/
 ---
 
 ## 📝 Blog
